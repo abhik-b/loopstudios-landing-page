@@ -33,3 +33,12 @@ a {
 .gradient-bg {
   background: linear-gradient(to left, #00000000 0%, #000000b7 100%);
 }
+@media (min-width: 640px) {
+  .hero-section {
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 640px;
+  }
+}
